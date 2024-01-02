@@ -1,0 +1,27 @@
+@use 'variables' as *;
+@use 'media' as *;
+
+
+body {
+    font-family: $font-family;
+    font-size: $font-size-regular;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-regular;
+ //   background-color: black;
+}
+
+
+.nav-link{
+    
+    color:$color-primary;
+    font-size: $font-size-regular;
+    }
+    .nav-item{
+        font-size: $font-size-regular;
+      color: $color-primary;
+    }
+    
+    .nav-link:hover{
+        border-bottom: 1px $color-primary solid;
+        transition: transform 0.5s ease;
+    }

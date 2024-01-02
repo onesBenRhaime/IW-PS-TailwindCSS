@@ -4,15 +4,27 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- ==========  Tailwind link  ========== -->
 		<link rel="stylesheet" href="./dist/style.css" />
+		<!-- ========== Link Icon ========== -->
 		<link
 			rel="stylesheet"
 			href="./node_modules/remixicon/fonts/remixicon.css"
 		/>
+		<!--bootstrap link-->
+		<link
+			href="node_modules/bootstrap/dist/css/bootstrap.css"
+			rel="stylesheet"
+		/>
+		<script src="node_modules/bootstrap/js/dist/popover.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<!-- ==========  sass link  ========== -->
+		<link rel="stylesheet" href="./css/style.css" />
 		<title>Votre Projet</title>
 	</head>
 	<body>
-		<!-- ========== Nav Section ========== -->
+		<!--
 		<nav class="container mx-auto p-6">
 			<div class="flex item-center justify-between">
 				<div>
@@ -38,8 +50,38 @@
 					<i class="ri-menu-line text-2xl"></i>
 				</button>
 			</div>
-		</nav>
+		</nav> ========== Nav Section ========== -->
 		<!-- ========== End Nav Section ========== -->
+
+		<!-- ========== nav with sass Section ========== -->
+		<!-- Navbar start -->
+		<nav class="navbar navbar-light bg-white fixed-top navbar-expand-md mt-0">
+			<a href="#" class=""
+				><img src="./dist/images/logo-esprit.png" alt="" class="img-fluid w-25"
+			/></a>
+
+			<div class="justify-content-around" id="navbarMenu">
+				<ul class="navbar-nav ms-3">
+					<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">Key Features</a>
+					</li>
+					<li class="nav-item">
+						<a href="#service" class="nav-link">Pircing</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Testimonial</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">FAQ</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Navbar end -->
+		<!-- ========== nav with sass Section ========== -->
+
 		<!-- ========== Hero Section ========== -->
 		<secction id="hero">
 			<dev

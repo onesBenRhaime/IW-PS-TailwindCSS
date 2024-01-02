@@ -1,0 +1,106 @@
+// font 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); 
+
+$font-family: 'Poppins', sans-serif;
+
+$font-weight-regular: 400;
+$font-weight-semiBold: 600;
+$font-weight-bold: 700;
+
+$font-size-regular: 16px;
+$font-size-medium: 18px;
+
+$font-size-small-title: 20px;
+$font-size-medium-title: 30px;
+$font-size-large-title: 36px;
+$font-size-extra-large-title: 60px;
+
+$line-height-regular: 24px;
+$line-height-medium: 48px;
+$line-height-large: 72px;
+
+// colors
+$color-primary: #242f51;
+$color-secondary: #f55767;
+$color-tertiary: #2563ff;
+$color-success: #40975f; 
+$color-gray: #616368;
+$color-white: #fff;
+
+$jamila:#f55767;
+
+
+// Hero section
+$font-color-title: #242f51;
+$font-size-title: 60px;
+$font-weight-title: "semi-bold";
+$font-family-title: "Poppins";
+$line-height-title: 75px; 
+
+
+$font-color-text: #616368;
+$font-size-text: 18px;
+$font-weight-text: "regular";
+$font-family-text: "Poppins";
+$line-height-text: 26px; 
+
+
+
+
+
+// section 1
+$font-color-card1-title: #f55767; 
+$font-size-card1-title: 20px; 
+$font-weight-card1-title: "semi-bold"; 
+$line-height-card1-title: 58px; 
+
+
+
+$font-color-card2-title: #2563ff; 
+$font-size-card2-title: 20px; 
+$font-weight-card2-title: "semi-bold"; 
+
+
+$font-color-card3-title: #40975f; 
+$font-size-card3-title: 20px; 
+$font-weight-card3-title: "semi-bold"; 
+
+$font-color-card-text: #616368; 
+$font-size-card-text: 16px;
+$font-weight-card-text: "regular";
+$font-family-card-text: "Poppins";
+$line-height-card-text: 26px; 
+
+
+
+// Section 2
+$font-color-section2-title: #242f51;
+$font-size-section2-title: 36px;
+$font-weight-section2-title: "semi-bold";
+$font-family-section2-title: "Poppins";
+$line-height-section2-title: 46px; 
+
+$font-color-section2-text: #616368;
+$font-size-section2-text: 16px;
+$font-weight-section2-text: "regular";
+$font-family-section2-text: "Poppins";
+$line-height-section2-text: 26px; 
+
+
+
+// Footer 
+
+$footer-bg-color: #242f51;
+
+$font-color-footer-title: #fff;
+$font-size-footer-title: 30px;
+$font-weight-footer-title: "bold";
+$font-family-footer-title: "Poppins";
+$line-height-footer-title: 46px; 
+
+$font-color-footer-links: #ffffff;
+$font-size-footer-links: 36px;
+$font-weight-footer-links: "regular";
+$font-family-footer-links: "Poppins";
+$line-height-footer-links: 26px; 
